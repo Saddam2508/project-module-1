@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* common class */
+
+.open-sans {
+  font-family: 'Open Sans', sans-serif;
+  font-optical-sizing: auto;
+}
+
+.btn {
+  background-color: #f15b22;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: 600;
+}
+/* main class */
+#banner {
+  background-image: url('/images/banner/banner1.png');
+  height: 808px;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  padding: 216px 230px 166px 1100px;
+}
+
+#banner .banner-container {
+  max-width: 525px;
+  text-align: right;
+}
+
+#banner .banner-container h1 {
+  font-size: 65px;
+  font-weight: 900;
+  color: #151414;
+  margin-bottom: 24px;
+}
+
+#banner .banner-container p {
+  font-size: 16px;
+  color: #444343;
+  line-height: 26px;
+  margin-bottom: 32px;
+}
