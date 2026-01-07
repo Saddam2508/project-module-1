@@ -19,6 +19,19 @@
   color: white;
   font-weight: 600;
 }
+
+.container {
+  width: 71%;
+  max-width: 1072;
+  margin: 0 auto;
+}
+
+.heading {
+  font-size: 40px;
+  text-align: center;
+  color: #151414;
+  margin-bottom: 50px;
+}
 /* main class */
 #banner {
   background-image: url('/images/banner/banner1.png');
@@ -27,6 +40,7 @@
   width: 100%;
   background-size: cover;
   padding: 216px 230px 166px 1100px;
+  margin-bottom: 130px;
 }
 
 #banner .banner-container {
@@ -46,4 +60,70 @@
   color: #444343;
   line-height: 26px;
   margin-bottom: 32px;
+}
+
+#failure {
+  margin-bottom: 130px;
+}
+
+.failure-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.failure-container .failure-img img {
+  max-width: 569px;
+}
+.failure-content {
+  max-width: 416px;
+}
+.failure-content h2 {
+  font-size: 40px;
+  font-weight: 900;
+  color: #151414;
+  margin-bottom: 30px;
+}
+.failure-content p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  margin-bottom: 30px;
+}
+
+.failure-content ul {
+  list-style: none;
+}
+.failure-content li {
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+}
+.failure-content li .fa-check {
+  font-size: 16px;
+  font-weight: 600;
+  color: green;
+}
+
+.plan-card-container {
+  display: flex;
+  justify-content: space-between;
+}
+.plan-card-container .card {
+  text-align: center;
+}
+.plan-card-container .card img {
+  width: 92px;
+  height: 92px;
+  margin-bottom: 20px;
+}
+.plan-card-container .card h3 {
+  font-size: 30px;
+  font-weight: 900;
+  color: #151414;
+  margin-bottom: 15px;
+}
+.plan-card-container .card p {
+  font-size: 25px;
+  font-weight: 600;
+  color: #737272;
 }
