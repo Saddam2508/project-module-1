@@ -22,7 +22,7 @@
 
 .container {
   width: 71%;
-  max-width: 1072;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
@@ -143,6 +143,76 @@
   padding: 59px 617px 59px 64px;
 }
 .call-container .call-content h2 {
-  size: 42px;
+  font-size: 40px;
   color: white;
+  margin-bottom: 24px;
+  max-width: 459px;
+}
+
+.btn-plan {
+  background-color: #ffffff;
+  padding: 21px 36px;
+  border-radius: 5px;
+  border: none;
+  color: #f15b22;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #151414;
+  padding-bottom: 130px;
+  padding-top: 130px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-content {
+  max-width: 485px;
+}
+.social-content h2 {
+  font-size: 45px;
+  color: #f8f8f8;
+  margin-bottom: 16px;
+}
+
+.social-content p {
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.social-icon {
+  display: flex;
+  gap: 17px;
+}
+
+.subscribe {
+  width: 400px;
+}
+.subscribe h2 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 31px;
+}
+
+.subscribe-input input {
+  background-color: #151414;
+  border: 1px solid white;
+  padding: 25px;
+  border-radius: 8px;
+  width: 100%;
+}
+.subscribe-input input[type='text']::placeholder {
+  color: white;
+  font-size: 18px;
+}
+.subscribe .subscribe-btn {
+  display: block;
+  margin-top: 15px;
 }
